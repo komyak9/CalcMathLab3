@@ -10,7 +10,7 @@ namespace Lab_3
 
         public override double CalculateValue(double x) => Math.Sin(x) / x;
 
-        public override bool IsFeasibleArea(double a, double b) => true;
+        public override bool IsFeasibleArea(double a, double b) => a * b > 0;
 
         public override bool IsBreakPoint(double x) => x == 0;
 

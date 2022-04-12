@@ -16,7 +16,5 @@
         {
             get { return breakPointType; }
         }
-
-
     }
 }

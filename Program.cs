@@ -18,6 +18,7 @@ namespace Lab_3
                     result = trapezoidalMethod.CalculateIntegral(picker.PickEquation(), picker.PickA(), picker.PickB(), picker.PickN(), out error);
                     Console.WriteLine($"\nIntegral value: {result}");
                     Console.WriteLine($"Error: δ <= {error}");
+                    Console.WriteLine($"Repair: {trapezoidalMethod.BreakPointRepairMessage}");
                 }
                 catch (Exception ex)
                 {
