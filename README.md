@@ -4,7 +4,8 @@ The system must follow the requirements:
 1. System must provide a range of functions, including continuous ones and those with discontinuity.
 2. System must provide calculations if there is no discontinuity on the chosen range of a function.
 3. System must provide calculations if there is a removable discontinuity on the chosen range of a function.
-4. System must provide the user with possibility of choosing number of partitions.
+4. System must restrict calculations if there is any other discontinuity on the chosen range of a function.
+5. System must provide the user with possibility of choosing number of partitions.
 
 Removable discontinuity is avoided by taking an algorithmic mean value Y (𝑓(𝑥−𝜀),𝑓(𝑥+𝜀), 𝜀 - small constant).
 
